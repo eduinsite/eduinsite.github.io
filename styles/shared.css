@@ -55,4 +55,13 @@ header {
 main {
     text-align: center;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.puzzle{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
