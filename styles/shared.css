@@ -57,11 +57,21 @@ main {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 75%;
+}
+
+.desc{
+  text-align: left;
+  padding-left: 20px;
 }
 
 .puzzle{
     position: absolute;
     bottom: 0px;
     right: 0px;
+}
+
+.face{
+  width: 125px;
+  height: 167px;
 }
