@@ -76,3 +76,7 @@ main {
   width: 125px;
   height: 167px;
 }
+
+h2 {
+    display: inline;
+}
