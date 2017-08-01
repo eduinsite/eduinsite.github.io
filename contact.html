@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Educational Insight</title>
+        <link rel="stylesheet" href="styles/shared.css" />
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.jpg" />
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li><a href="#">Services</a>
+                        <ul>
+                            <li>
+                                <a href="consultation.html">Consultation</a>
+                            </li>
+                            <li>
+                                <a href="assessment.html">Psychoeducatoinal Assesment</a>
+                            </li>
+                            <li>
+                                <a href="college.html">College Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Directions/Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <p>
+              Edward Emling, PhD
+            </p>
+            <p><a href = "mailto:ed.emling@educationalinsight.org">
+              ed.emling@educationalinsight.org</a>
+            </p>
+            <p>
+              (650) 906-3192
+            </p>
+
+            <br>
+
+            <p>
+              Brittany Stevens, PhD
+            </p>
+            <p><a href = "mailto:brittany.stevens@educationalinsight.org">
+              brittany.stevens@educationalinsight.org</a>
+            </p>
+            <p>
+              (650) 906-3198
+            </p>
+
+            <br>
+
+            <p>
+              Educational Insight
+            </p>
+            <p>
+              4701 Patrick Henry Dr., Building #8
+            </p>
+            <p>
+              Santa Clara, CA, 95054
+            </p>
+
+            <br>
+
+            <p>
+              *Please note: for easier access to the office, please park around the back.
+            </p>
+
+            <br>
+
+            <div id="map" style="width:400px;height:400px;background:white"></div>
+
+            <script>
+                function initMap() {
+                  var uluru = {lat: 37.398649, lng: -121.983090};
+                  var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 14,
+                    center: uluru
+                  });
+                  var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                  });
+                }
+           </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbSOwtGBogE49h3_KcXO80XUibIOOyII8&callback=initMap">
+          </script>
+        </main>
+        <img src="images/puzzle.jpg" alt="puzzle image" class="puzzle">
+    </body>
+</html>
