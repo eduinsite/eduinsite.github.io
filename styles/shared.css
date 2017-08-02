@@ -77,6 +77,13 @@ main {
   height: 167px;
 }
 
+.heading{
+  color: #282b72;
+  font-weight: bold;
+  /*background-color: #fdffd2;*/
+  padding: 8px;
+}
+
 h2 {
     display: inline;
 }
